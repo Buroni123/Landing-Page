@@ -167,3 +167,46 @@ body{
     font-weight: 800;
     color: #1f2937;
 }
+
+.signup-container{
+    background-color: #3882f6;
+    width: 65%;
+    height: 150px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+.signup-text{
+    color: #f9faf8;
+}
+
+.signup-main-text{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.signup-secondary-text{
+    margin-top: 0;
+}
+
+.signup-button-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-button{
+    text-align: center;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background-color: transparent;
+    margin-top: 10px;
+    width: 125px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+}
